@@ -142,7 +142,7 @@ function lançar() {
                                  //Preto Frente e Verso**
                                  else if (!!pretofrente && !!frenteeverso && !coloridofrente && !encadernado && !livreto) {
                                          const pretofrenteeverso = {
-                                                 preço: preçoproduto(0,0.25,20,0.20,40,0.15,50,0.05) ,
+                                                 preço: preçoproduto(0,0.25,20,0.20,40,0.15,50,0.07) ,
                                                  total2: total(),
                                                  lançar: lançar(this.preço,this.total2),
                                                  criar: criartabela(this.preço,definicao('Preto - Frente e Verso'),this.total2) 
@@ -168,7 +168,7 @@ function lançar() {
                                  //Preto Frente e Verso com Encadernação
                                 else if (!!pretofrente && !!frenteeverso && !coloridofrente && !!encadernado && !livreto) {
                                  const pretofrenteeverso = {
-                                         preço: preçoproduto(0,0.25,20,0.20,40,0.15,50,0.05) ,
+                                         preço: preçoproduto(0,0.25,20,0.20,40,0.15,50,0.07) ,
                                          total2: total(),
                                          lançar: lançar(this.preço,this.total2),
                                          criar: criartabela(this.preço,definicao('Preto - Frente e Verso'),this.total2,('1')) } 
@@ -225,7 +225,7 @@ function lançar() {
                                  // Livreto preto frente e verso
                                 else if (!!pretofrente && !!frenteeverso && !coloridofrente && !!encadernado && !!livreto) {
                                  const pretofrenteeverso = {
-                                         preço: preçoproduto(0,0.25/2,40,0.20/2,80,0.15/2,100,0.05/2) ,
+                                         preço: preçoproduto(0,0.25/2,40,0.20/2,80,0.15/2,100,0.07/2) ,
                                          total2: total(),
                                          lançar: lançar(this.preço,this.total2),
                                          criar: criartabela(this.preço,definicao('Livreto Preto - Frente e Verso'),this.total2,('1'),) } 
