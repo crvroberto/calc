@@ -159,7 +159,7 @@ function lançar() {
                                                  
                                                  }
                                          const encadernaçãof = {
-                                                 preço: preçoproduto(0,2,25,3,50,4,100,5,200,6,300,7 )                             ,
+                                                 preço: preçoproduto(0,3,50,4,100,5,200,6,300,7 )                             ,
                                                  criar: criartabela(this.preço,definicao('Encadernação'),this.preço) ,
                                                  
                                                  
@@ -173,7 +173,7 @@ function lançar() {
                                          lançar: lançar(this.preço,this.total2),
                                          criar: criartabela(this.preço,definicao('Preto - Frente e Verso'),this.total2,('1')) } 
                                  const encadernaçãofv = {
-                                                 preço: preçoproduto(0,2,50,3,100,4,200,5,400,6,600,7 )                             ,
+                                                 preço: preçoproduto(0,3,100,4,200,5,400,6,600,7 )                             ,
                                                  criar: criartabela(this.preço,definicao('Encadernação'),this.preço) ,
                                                  
                                          }
@@ -216,7 +216,7 @@ function lançar() {
                                                  lançar: lançar(this.preço,this.total2),
                                                  criar: criartabela(this.preço,definicao('Colorido - Frente e Verso'),this.total2,('1'))  }
                                                  const encadernaçãofv = {
-                                                         preço: preçoproduto(0,2,50,3,100,4,200,5,400,6,600,7 )                             ,
+                                                         preço: preçoproduto(0,3,100,4,200,5,400,6,600,7 )                             ,
                                                          criar: criartabela(this.preço,definicao('Encadernação'),this.preço) ,
                                                          
                                                  }
@@ -243,7 +243,7 @@ function lançar() {
                                          lançar: lançar(this.preço,this.total2),
                                          criar: criartabela(this.preço,definicao('Livreto Colorido - Frente e Verso'),this.total2,('1'))  }
                                          const encadernaçãofv = {
-                                                 preço: preçoproduto(0,2,50,3,100,4,200,5,400,6,600,7 )                             ,
+                                                 preço: preçoproduto(0,3,100,4,200,5,400,6,600,7 )                             ,
                                                  criar: criartabela(this.preço,definicao('Encadernação'),this.preço) ,
                                                  
                                          }
