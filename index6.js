@@ -180,14 +180,14 @@ function lançar() {
                                  }
                                  // Colorido Frente
                                 else if (!!coloridofrente && !pretofrente && !frenteeverso && !encadernado && !livreto) {const coloridofrente = {
-                                 preço: preçoproduto(0,0.50,10,0.30,50,0.20)                             ,
+                                 preço: preçoproduto(0,0.50,20,0.40,50,0.30)                             ,
                                  total2: total() ,
                                  lançar: lançar(this.preço,this.total2),
                                  criar: criartabela(this.preço,definicao('Colorido - Frente'),this.total2)    
                                 }  }
                                  // Colorido Frente e Verso
                                 else if (!pretofrente && !!frenteeverso && !!coloridofrente && !encadernado && !livreto) {const coloridofrenteeferso = {
-                                 preço: preçoproduto(0,0.50,10,0.30,50,0.10)                             ,
+                                 preço: preçoproduto(0,0.50,10,0.40,50,0.20)                             ,
                                  total2: total() ,
                                  lançar: lançar(this.preço,this.total2),
                                  criar: criartabela(this.preço,definicao('Colorido - Frente e Verso'),this.total2) 
@@ -196,13 +196,13 @@ function lançar() {
                                  // Colorido Frente + Encadernação
                                else if (!pretofrente && !frenteeverso && !!coloridofrente && !!encadernado && !livreto) {
                                        const coloridofrente = {
-                                 preço: preçoproduto(0,0.50,10,0.30,50,0.20)                             ,
+                                 preço: preçoproduto(0,0.50,10,0.40,50,0.30)                             ,
                                  total2: total() ,
                                  lançar: lançar(this.preço,this.total2),
                                  criar: criartabela(this.preço,definicao('Colorido - Frente'),this.total2,('1'))}
                          
                                  const encadernaçãof = {
-                                         preço: preçoproduto(0,2,25,3,50,4,100,5,200,6,300,7 )     ,
+                                         preço: preçoproduto(0,3,50,4,100,5,200,6,300,7 )     ,
                                          criar: criartabela(this.preço,definicao('Encadernação'),this.preço) ,
                                          
                                          
@@ -211,7 +211,7 @@ function lançar() {
                                  // Colorido Frente e Verso + Encadernação
                                  else if (!pretofrente && !!frenteeverso && !!coloridofrente && !!encadernado && !livreto) {
                                          const coloridofrenteeferso = {
-                                                 preço: preçoproduto(0,0.50,10,0.30,50,0.10)                             ,
+                                                 preço: preçoproduto(0,0.50,10,0.30,50,0.20)                             ,
                                                  total2: total() ,
                                                  lançar: lançar(this.preço,this.total2),
                                                  criar: criartabela(this.preço,definicao('Colorido - Frente e Verso'),this.total2,('1'))  }
@@ -230,7 +230,7 @@ function lançar() {
                                          lançar: lançar(this.preço,this.total2),
                                          criar: criartabela(this.preço,definicao('Livreto Preto - Frente e Verso'),this.total2,('1'),) } 
                                  const encadernaçãofv = {
-                                                 preço: preçoproduto(0,2,50,3,100,4,200,5,400,6,600,7 )                             ,
+                                                 preço: preçoproduto(0,3,100,4,200,5,400,6,600,7 )                             ,
                                                  criar: criartabela(this.preço,definicao('Encadernação'),this.preço) ,
                                                  
                                          }
@@ -238,7 +238,7 @@ function lançar() {
                                  // Livreto colorido frente e verso
                                 else if (!pretofrente && !!frenteeverso && !!coloridofrente && !!encadernado && !!livreto) {
                                  const coloridofrenteeferso = {
-                                         preço: preçoproduto(0,0.50/2,20,0.30/2,100,0.10/2)                             ,
+                                         preço: preçoproduto(0,0.50/2,20,0.40/2,100,0.20/2)                             ,
                                          total2: total() ,
                                          lançar: lançar(this.preço,this.total2),
                                          criar: criartabela(this.preço,definicao('Livreto Colorido - Frente e Verso'),this.total2,('1'))  }
