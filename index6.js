@@ -133,7 +133,7 @@ function lançar() {
                                 //Preto Frente**
                                 if (!!pretofrente && !frenteeverso && !coloridofrente && !encadernado && !livreto) {
                                         const pretofrente = {
-                                                 preço: preçoproduto(0,0.25,20,0.20,40,0.15,50,0.10)                             ,
+                                                 preço: preçoproduto(0,0.25,20,0.40,50,0.15)                             ,
                                                  total2: total() ,
                                                  lançar: lançar(this.preço,this.total2),
                                                  criar: criartabela(this.preço,definicao('Preto - Frente'),this.total2) ,   
@@ -152,7 +152,7 @@ function lançar() {
                                  //Preto Frente + Encadernação**
                                  else if (!!pretofrente && !frenteeverso && !coloridofrente && !!encadernado && !livreto) {
                                          const pretofrente = {
-                                                 preço: preçoproduto(0,0.25,20,0.20,40,0.15,50,0.10)                             ,
+                                                 preço: preçoproduto(0,0.25,20,0.40,50,0.15)                             ,
                                                  total2: total() ,
                                                  lançar: lançar(this.preço,this.total2),
                                                  criar: criartabela(this.preço,definicao('Preto - Frente'),this.total2,('1')) ,   
